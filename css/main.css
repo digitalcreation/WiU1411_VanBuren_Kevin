@@ -9,6 +9,7 @@ body {
     border-radius: 5px;
     padding: 2%;
     margin: 1% auto;
+    line-height: 150%;
 }
 #wrapper {
     overflow: auto;
