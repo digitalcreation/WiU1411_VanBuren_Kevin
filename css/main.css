@@ -1,0 +1,86 @@
+/**/
+/*-------------------------------------------   Main Styles   -------------------------------------------------------*/
+html {
+    background-color: #162C41;
+}
+body {
+    font: 1em Georgia, Times, serif;
+    background-color: #FBF4F5;
+    width: 92%;
+    border-radius: 5px;
+    padding: 2%;
+    margin: 1% auto;
+}
+#wrapper {
+    overflow: auto;
+}
+a {
+    color: #002F2F;
+    text-decoration: none;
+}
+a:hover {
+    color: #4476C1;
+    text-decoration: underline;
+}
+/*----------------------------------------  End Main Styles   -------------------------------------------------------*/
+
+/*----------------------------------------      Body          -------------------------------------------------------*/
+header {
+    border-bottom: solid 2px;
+    margin: 0 0 3% 0;
+}
+#desTitle {
+    margin: 0 0 0 0;
+}
+#tableTitle {
+    text-align: center;
+    clear: both;
+    margin: 0 0 1.5% 0;
+}
+#description {
+    width: 60%;
+    float: left;
+    margin: 3% 5% 0 0;
+}
+#image img {
+    margin: 3% 0 3% 0;
+}
+footer {
+    margin: 3% 0 0 0;
+    text-align: center;
+}
+/*----------------------------------------     End Body      -------------------------------------------------------*/
+
+/*----------------------------------------      Table        -------------------------------------------------------*/
+table {
+    border-collapse: collapse;
+    width: 80%;
+    background: #00A3A3;
+    margin: 0 0 0 10%;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 2px;
+    box-shadow: 1px 2px 2px 2px #82C2C2;
+}
+tr.odd:hover {
+    background-color: #FFFCD8;
+}
+tr.even:hover {
+    background-color: #82C2C2;
+}
+.odd{
+    background: #EBECEA;
+}
+th{
+    text-align: left;
+    padding: 2% 2% 1% 2%;
+    color: #000;
+}
+td{
+    padding: 2% 2%;
+    width: 40%;
+}
+.title {
+    border-bottom: solid 2px;
+}
+/*----------------------------------------     End Table     -------------------------------------------------------*/
